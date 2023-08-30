@@ -54,3 +54,17 @@
     #f9acf5 117.04%
   );
 }
+
+.active:hover {
+  background: linear-gradient(
+    92.23deg,
+    #f9acf5 21.43%,
+    #d184ef 50.63%,
+    #0bacf6 100%,
+    #011b76 117.04%
+  );
+}
+
+.iconHover:hover {
+  font-size: 3rem;
+}

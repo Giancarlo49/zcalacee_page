@@ -56,6 +56,7 @@
 }
 
 motion-div {
+  align-items: center;
   margin-bottom: 6px; /* Unteren Abstand auf 6px setzen */
   font-size: 36px; /* Schriftgröße auf 36px setzen */
   font-family: "Orbitron", sans-serif; /* Schriftart festlegen */
@@ -127,16 +128,26 @@ motion-div {
 
 .spotify {
   font-size: 2rem;
-  color: rgb(9, 102, 233);
+  color: rgb(51, 169, 65);
 }
 .youtube {
   font-size: 2rem;
-  color: rgb(9, 102, 233);
+  color: rgb(233, 9, 50);
 }
 
 .instagram {
   font-size: 2rem;
-  color: rgb(9, 102, 233);
+  color: rgb(107, 5, 144);
+}
+
+.spotify:hover {
+  font-size: 3rem;
+}
+.youtube:hover {
+  font-size: 3rem;
+}
+.instagram:hover {
+  font-size: 3rem;
 }
 
 .btn {

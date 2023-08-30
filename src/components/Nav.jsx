@@ -20,7 +20,7 @@ const Nav = () => {
             offset={-200}
             className="link"
           >
-            <BiHomeAlt />
+            <BiHomeAlt className="iconHover" />
           </Link>
 
           <Link
@@ -30,7 +30,7 @@ const Nav = () => {
             spy={true}
             className="link"
           >
-            <BsMusicNoteBeamed />
+            <BsMusicNoteBeamed className="iconHover" />
           </Link>
 
           <Link
@@ -40,7 +40,7 @@ const Nav = () => {
             spy={true}
             className="link"
           >
-            <BsChatSquareText />
+            <BsChatSquareText className="iconHover" />
           </Link>
         </div>
       </div>
