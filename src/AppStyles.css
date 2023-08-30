@@ -1,0 +1,67 @@
+/* app.css */
+/* Stile für Schriftarten */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Orbitron", sans-serif;
+}
+
+/* STYLE BACKGROUND IMAGE */
+.bg-site {
+  background-image: url("./assets/site-bg.jpg");
+  height: 4000px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+/* Container-Stile */
+.container {
+  padding: 15px;
+}
+
+/* Bildschirmgrößen */
+@media (min-width: 640px) {
+  /* Stile für Bildschirmbreite kleiner als 640px */
+  .sm {
+    /* Deine Stile für kleinere Bildschirmgrößen hier */
+  }
+}
+
+@media (min-width: 768px) {
+  /* Stile für Bildschirmbreite kleiner als 768px */
+  .md {
+    /* Deine Stile für mittlere Bildschirmgrößen hier */
+  }
+}
+
+@media (min-width: 960px) {
+  /* Stile für Bildschirmbreite kleiner als 960px */
+  .lg {
+    /* Deine Stile für große Bildschirmgrößen hier */
+  }
+}
+
+@media (min-width: 1200px) {
+  /* Stile für Bildschirmbreite kleiner als 1200px */
+  .xl {
+    /* Deine Stile für extra große Bildschirmgrößen hier */
+  }
+}
+
+/* Farben */
+.primary {
+  color: #0a0a0a;
+}
+
+.accent {
+  color: #b809c3;
+}
+
+.about-bg {
+  background-image: url("./assets/about.png");
+}
+
+.services-bg {
+  background-image: url("./assets/services.png");
+}

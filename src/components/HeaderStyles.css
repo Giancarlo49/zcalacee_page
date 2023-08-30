@@ -1,0 +1,78 @@
+header {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+/* Stile für die Klasse .container */
+.container {
+  margin-left: auto; /* Automatische linke Marge */
+  margin-right: auto; /* Automatische rechte Marge */
+  max-width: 100%; /* Maximale Breite des Containers */
+  padding-left: 15px; /* Linker Innenabstand */
+  padding-right: 15px; /* Rechter Innenabstand */
+}
+
+.headerZone {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Stile für die Klasse .btn */
+.btn {
+  background: linear-gradient(
+    92.23deg,
+    #011b76 21.43%,
+    #011b76 50.63%,
+    #0bacf6 100%,
+    #0bacf6 117.04%
+  );
+  box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
+  color: white; /* Textfarbe auf Weiß setzen */
+  border: none; /* Kein Rand */
+  padding: 0.5rem 1rem; /* Innenabstand oben/unten und links/rechts */
+  border-radius: 999px; /* Runder Rand */
+  font-size: 14px; /* Schriftgröße */
+  cursor: pointer; /* Zeiger als Zeiger */
+}
+
+/* Stile für die Klasse .btn-sm */
+.btn-sm {
+  height: 36px; /* Höhe des kleineren Buttons */
+  font-size: 12px; /* Kleinere Schriftgröße */
+  padding: 0.25rem 0.75rem; /* Kleinere Innenabstände */
+}
+/* Stile für die Klasse .btn */
+.btn {
+  background: linear-gradient(
+    92.23deg,
+    #011b76 21.43%,
+    #011b76 50.63%,
+    #0bacf6 100%,
+    #0bacf6 117.04%
+  );
+  box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
+  color: white; /* Textfarbe auf Weiß setzen */
+  border: none; /* Kein Rand */
+  padding: 0.5rem 1rem; /* Innenabstand oben/unten und links/rechts */
+  border-radius: 999px; /* Runder Rand */
+  font-size: 14px; /* Schriftgröße */
+  cursor: pointer; /* Zeiger als Zeiger */
+}
+
+/* Stile für die Klasse .btn-sm */
+.btn-sm {
+  height: 36px; /* Höhe des kleineren Buttons */
+  font-size: 12px; /* Kleinere Schriftgröße */
+  padding: 0.25rem 0.75rem; /* Kleinere Innenabstände */
+}
+
+.btn:hover {
+  background: linear-gradient(
+    92.23deg,
+    #0bacf6 21.43%,
+    #0bacf6 50.63%,
+    #011b76 100%,
+    #011b76 117.04%
+  );
+}

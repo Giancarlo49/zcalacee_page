@@ -1,0 +1,92 @@
+/* Allgemeine Stile */
+body {
+  font-family: var(--font-secondary);
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+.h2 {
+  font-family: var(--font-primary);
+  font-size: 32px;
+  margin-bottom: 6px;
+  letter-spacing: 10%;
+  text-transform: uppercase;
+}
+
+.h3 {
+  font-family: var(--font-primary);
+  font-weight: 600;
+  font-size: 26px;
+  margin-bottom: 6px;
+  line-height: 46px;
+}
+
+/* Stil für den Button */
+.btn {
+  background: linear-gradient(
+    92.23deg,
+    #011b76 21.43%,
+    #011b76 50.63%,
+    #0bacf6 100%,
+    #0bacf6 117.04%
+  );
+  box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
+  border-radius: 999px;
+  font-family: var(--font-primary);
+  font-weight: 500;
+  color: #ffffff;
+  padding: 1rem 2rem;
+}
+
+.btn:hover {
+  background: linear-gradient(
+    92.23deg,
+    #0bacf6 21.43%,
+    #0bacf6 50.63%,
+    #011b76 100%,
+    #011b76 117.04%
+  );
+}
+
+/* Stil für die Klasse .gradient und .active */
+.gradient,
+.active {
+  background: linear-gradient(
+    92.23deg,
+    #011b76 21.43%,
+    #0bacf6 50.63%,
+    #d184ef 100%,
+    #f9acf5 117.04%
+  );
+}
+
+.active {
+  color: #ffffff;
+  padding: 1rem;
+  border-radius: 100%;
+}
+
+/* Stil für die Klasse .text-gradient */
+.text-gradient {
+  background: linear-gradient(to right, #42a6e3, #032a96);
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-weight: 700;
+  font-family: var(--font-primary);
+  color: transparent;
+}
+
+/* Stil für die Klasse .section */
+.section {
+  padding: 2rem 0;
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .section {
+    padding: 6rem 0;
+    height: 100vh;
+  }
+}

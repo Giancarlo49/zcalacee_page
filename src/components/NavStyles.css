@@ -1,0 +1,42 @@
+.nav {
+  position: fixed;
+  bottom: 2rem;
+  width: 100%;
+  overflow: hidden;
+  z-index: 50;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.navIcons {
+  width: 100%; /* Volle Breite des Containers */
+  background-color: rgba(0, 0, 0, 0.2); /* Hintergrundfarbe mit Transparenz */
+  height: 96px; /* Höhe von 96px */
+  backdrop-filter: blur(2px); /* Hintergrundunschärfe */
+  border-radius: 999px; /* Runder Rand */
+  max-width: 320px; /* Maximale Breite von 320px */
+  margin-left: auto; /* Automatische linke Marge */
+  margin-right: auto; /* Automatische rechte Marge */
+  padding-left: 5px; /* Linker Innenabstand */
+  padding-right: 5px; /* Rechter Innenabstand */
+  display: flex; /* Flexibles Layout verwenden */
+  justify-content: space-between; /* Abstand zwischen den Elementen verteilen */
+  align-items: center; /* Elemente vertikal zentrieren */
+  font-size: 2em; /* Schriftgröße */
+  color: rgba(255, 255, 255, 0.9); /* Textfarbe mit Transparenz */
+}
+
+.link {
+  cursor: pointer; /* Zeiger als Zeiger */
+  width: 60px; /* Breite von 60px */
+  height: 60px; /* Höhe von 60px */
+  display: flex; /* Flexibles Layout verwenden */
+  align-items: center; /* Elemente vertikal zentrieren */
+  justify-content: center; /* Elemente horizontal zentrieren */
+}
