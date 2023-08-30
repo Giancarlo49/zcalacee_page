@@ -26,7 +26,6 @@ const Banner = () => {
               className="motion-h1"
             >
               Zcalacee
-              {/* <span></span> */}
             </motion.h1>
             <motion.div
               variants={fadeIn("up", 0.4)}
@@ -55,24 +54,6 @@ const Banner = () => {
             </motion.div>
 
             <motion.div
-              variants={fadeIn("up", 0.5)}
-              initial="hidden"
-              whileInView={"show"}
-              viewport={{ once: false, amount: 0.7 }}
-              className="motion-div-children"
-            >
-              <a href="#">
-                <FaSpotify className="spotify" />
-              </a>
-              <a href="#">
-                <FaYoutube className="youtube" />
-              </a>
-              <a href="#">
-                <FaInstagram className="instagram" />
-              </a>
-            </motion.div>
-
-            <motion.div
               variants={fadeIn("up", 0.6)}
               initial="hidden"
               whileInView={"show"}
@@ -80,9 +61,23 @@ const Banner = () => {
               className="motion-div-children-2"
             >
               <button className="btn">Contact me</button>
-              <a href="#" className="text-gradient btn-link">
-                My Website
-              </a>
+              <motion.div
+                variants={fadeIn("up", 0.5)}
+                initial="hidden"
+                whileInView={"show"}
+                viewport={{ once: false, amount: 0.7 }}
+                className="motion-div-children"
+              >
+                <a href="#">
+                  <FaSpotify className="spotify" />
+                </a>
+                <a href="#">
+                  <FaYoutube className="youtube" />
+                </a>
+                <a href="#">
+                  <FaInstagram className="instagram" />
+                </a>
+              </motion.div>
             </motion.div>
             {/* socials */}
           </div>

@@ -16,7 +16,7 @@
 .container-flex {
   display: flex; /* Flexibles Layout verwenden */
   flex-direction: column; /* Anordnung der Kinder in Spaltenrichtung */
-  gap: 8px; /* Abstand zwischen den Kindern in vertikaler Richtung */
+  gap: 2px; /* Abstand zwischen den Kindern in vertikaler Richtung */
 }
 
 /* Stile für größere Bildschirme (lg) */
@@ -74,6 +74,7 @@ motion-div {
 .text-white {
   color: white;
   margin-right: 2rem;
+  font-size: 2rem;
 }
 
 /* Stile für die Klasse .text-gradient */
@@ -90,6 +91,10 @@ motion-div {
   color: transparent; /* Textfarbe auf transparent setzen */
   font-weight: bold; /* Schrift fett (bold) machen */
   font-family: "Orbitron", sans-serif; /* Schriftart festlegen */
+
+  @media (max-width: 768px) {
+    font-size: 32px; /* Ändern Sie die Schriftgröße nach Bedarf */
+  }
 }
 
 .motion-div-children {
@@ -118,6 +123,20 @@ motion-div {
     margin-left: 0; /* Linken Rand auf 0 setzen, um die Zentrierung aufzuheben */
     margin-right: 0; /* Rechten Rand auf 0 setzen, um die Zentrierung aufzuheben */
   }
+}
+
+.spotify {
+  font-size: 2rem;
+  color: rgb(9, 102, 233);
+}
+.youtube {
+  font-size: 2rem;
+  color: rgb(9, 102, 233);
+}
+
+.instagram {
+  font-size: 2rem;
+  color: rgb(9, 102, 233);
 }
 
 .btn {
