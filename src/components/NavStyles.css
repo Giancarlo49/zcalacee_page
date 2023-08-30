@@ -1,3 +1,4 @@
+/* NavStyles.css */
 .nav {
   position: fixed;
   bottom: 2rem;
@@ -15,28 +16,41 @@
 }
 
 .navIcons {
-  width: 100%; /* Volle Breite des Containers */
-  background-color: rgba(0, 0, 0, 0.2); /* Hintergrundfarbe mit Transparenz */
-  height: 96px; /* Höhe von 96px */
-  backdrop-filter: blur(2px); /* Hintergrundunschärfe */
-  border-radius: 999px; /* Runder Rand */
-  max-width: 320px; /* Maximale Breite von 320px */
-  margin-left: auto; /* Automatische linke Marge */
-  margin-right: auto; /* Automatische rechte Marge */
-  padding-left: 5px; /* Linker Innenabstand */
-  padding-right: 5px; /* Rechter Innenabstand */
-  display: flex; /* Flexibles Layout verwenden */
-  justify-content: space-between; /* Abstand zwischen den Elementen verteilen */
-  align-items: center; /* Elemente vertikal zentrieren */
-  font-size: 2em; /* Schriftgröße */
-  color: rgba(255, 255, 255, 0.9); /* Textfarbe mit Transparenz */
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 96px;
+  backdrop-filter: blur(2px);
+  border-radius: 999px;
+  max-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2em;
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .link {
-  cursor: pointer; /* Zeiger als Zeiger */
-  width: 60px; /* Breite von 60px */
-  height: 60px; /* Höhe von 60px */
-  display: flex; /* Flexibles Layout verwenden */
-  align-items: center; /* Elemente vertikal zentrieren */
-  justify-content: center; /* Elemente horizontal zentrieren */
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.active {
+  color: #ffffff;
+  padding: 1rem;
+  border-radius: 100%;
+  background: linear-gradient(
+    92.23deg,
+    #011b76 21.43%,
+    #0bacf6 50.63%,
+    #d184ef 100%,
+    #f9acf5 117.04%
+  );
 }

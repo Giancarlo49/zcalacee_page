@@ -1,0 +1,205 @@
+.section {
+  min-height: 75vh; /* Mindesthöhe von 85% der Viewport-Höhe */
+  display: flex; /* Flexibles Layout verwenden */
+  align-items: center; /* Elemente vertikal zentrieren */
+}
+
+.container {
+  margin-left: auto; /* Linken Rand auf "auto" setzen, um horizontal zu zentrieren */
+  margin-right: auto; /* Rechten Rand auf "auto" setzen, um horizontal zu zentrieren */
+  max-width: 1000px; /* Maximale Breite des Containers auf 1000px begrenzen */
+  padding-left: 15px; /* Linken Innenabstand auf 15px setzen */
+  padding-right: 15px; /* Rechten Innenabstand auf 15px setzen */
+}
+
+/* Stile für die Klasse .custom-flex-container */
+.container-flex {
+  display: flex; /* Flexibles Layout verwenden */
+  flex-direction: column; /* Anordnung der Kinder in Spaltenrichtung */
+  gap: 8px; /* Abstand zwischen den Kindern in vertikaler Richtung */
+}
+
+/* Stile für größere Bildschirme (lg) */
+@media (min-width: 768px) {
+  .container-flex {
+    flex-direction: row; /* Anordnung der Kinder in Reihenrichtung */
+    align-items: center; /* Kinder vertikal zentrieren */
+    gap: 12px; /* Abstand zwischen den Kindern in horizontaler Richtung */
+  }
+}
+
+.text {
+  flex: 1; /* Flex-Wachstum auf 1 setzen, um den verbleibenden Platz zu füllen */
+  text-align: center; /* Text zentrieren */
+  font-family: "Orbitron", sans-serif; /* Schriftart festlegen */
+}
+
+/* Stile für größere Bildschirme (lg) */
+@media (min-width: 768px) {
+  .text {
+    text-align: left; /* Text linksbündig ausrichten */
+  }
+}
+
+.motion-h1 {
+  font-size: 55px; /* Schriftgröße auf 55px setzen */
+  color: white;
+  font-weight: bold; /* Schrift fett (bold) machen */
+  line-height: 0.8; /* Zeilenhöhe auf 0.8 setzen */
+}
+
+/* Stile für größere Bildschirme (lg) */
+@media (min-width: 768px) {
+  .motion-h1 {
+    font-size: 110px; /* Schriftgröße auf 110px setzen */
+  }
+}
+
+motion-div {
+  margin-bottom: 6px; /* Unteren Abstand auf 6px setzen */
+  font-size: 36px; /* Schriftgröße auf 36px setzen */
+  font-family: "Orbitron", sans-serif; /* Schriftart festlegen */
+  font-weight: 600; /* Schrift fett (semibold) machen */
+  text-transform: uppercase; /* Text in Großbuchstaben umwandeln */
+  line-height: 1; /* Zeilenhöhe auf 1 setzen */
+}
+
+/* Stile für größere Bildschirme (lg) */
+@media (min-width: 768px) {
+  .motion-div {
+    font-size: 60px; /* Schriftgröße auf 60px setzen */
+  }
+}
+
+.text-white {
+  color: white;
+  margin-right: 2rem;
+}
+
+/* Stile für die Klasse .text-gradient */
+.text-gradient {
+  background: linear-gradient(
+    92.23deg,
+    #011b76 21.43%,
+    #0bacf6 50.63%,
+    #d184ef 100%,
+    #f9acf5 117.04%
+  );
+  background-clip: text; /* Hintergrund auf den Text clippen */
+  -webkit-background-clip: text; /* Hintergrund auf den Text clippen (für Webkit-Browser) */
+  color: transparent; /* Textfarbe auf transparent setzen */
+  font-weight: bold; /* Schrift fett (bold) machen */
+  font-family: "Orbitron", sans-serif; /* Schriftart festlegen */
+}
+
+.motion-div-children {
+  display: flex; /* Flexibles Layout verwenden */
+  font-size: 20px; /* Schriftgröße auf 20px setzen */
+  gap: 6px; /* Abstand zwischen den Kindern in horizontaler Richtung */
+  max-width: max-content; /* Maximale Breite auf die Inhaltsbreite setzen */
+  margin-left: auto; /* Linken Rand auf "auto" setzen, um horizontal zu zentrieren */
+  margin-right: auto; /* Rechten Rand auf "auto" setzen, um horizontal zu zentrieren */
+  margin-bottom: 5px; /* Unteren Abstand auf 5px setzen */
+}
+
+.motion-div-children-2 {
+  display: flex; /* Flexibles Layout verwenden */
+  max-width: max-content; /* Maximale Breite auf die Inhaltsbreite setzen */
+  gap: 6px; /* Abstand zwischen den Kindern in horizontaler Richtung */
+  align-items: center; /* Kinder vertikal zentrieren */
+  margin-bottom: 12px; /* Unteren Abstand auf 12px setzen */
+  margin-left: auto; /* Linken Rand auf "auto" setzen, um horizontal zu zentrieren */
+  margin-right: auto; /* Rechten Rand auf "auto" setzen, um horizontal zu zentrieren */
+}
+
+/* Stile für größere Bildschirme (lg) */
+@media (min-width: 768px) {
+  .motion-div-children-2 {
+    margin-left: 0; /* Linken Rand auf 0 setzen, um die Zentrierung aufzuheben */
+    margin-right: 0; /* Rechten Rand auf 0 setzen, um die Zentrierung aufzuheben */
+  }
+}
+
+.btn {
+  background: linear-gradient(
+    92.23deg,
+    #011b76 21.43%,
+    #0bacf6 50.63%,
+    #0bacf6 100%,
+    #0bacf6 117.04%
+  );
+  box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
+  padding: 1rem 2rem; /* Innenabstand oben/unten 1rem, links/rechts 2rem */
+  border: none; /* Keine Randlinie anzeigen */
+  border-radius: 999px; /* Randradius für abgerundete Ecken */
+  color: white; /* Textfarbe auf weiß setzen */
+  font-family: "Orbitron", sans-serif; /* Schriftart festlegen */
+  font-weight: 500; /* Schriftgewicht auf 500 setzen */
+  cursor: pointer; /* Zeiger anzeigen, um zu zeigen, dass es anklickbar ist */
+  transition: background 0.3s, box-shadow 0.3s; /* Übergangseffekte hinzufügen */
+}
+
+/* Hovern über den Button */
+.btn:hover {
+  background: linear-gradient(
+    92.23deg,
+    #0bacf6 21.43%,
+    #0bacf6 50.63%,
+    #011b76 100%,
+    #011b76 117.04%
+  );
+  box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.8);
+}
+
+/* Stile für größere Bildschirme (ab einer bestimmten Breite) */
+@media (min-width: 768px) {
+  .btn {
+    padding: 1.2rem 2.4rem; /* Innenabstand für größere Buttons */
+    font-size: 1.2rem; /* Schriftgröße für größere Buttons */
+  }
+}
+
+/* Stile für die Klasse .text-gradient */
+.text-gradient {
+  background: linear-gradient(
+    92.23deg,
+    #42a6e3 21.43%,
+    #032a96 50.63%,
+    #042a96 100%,
+    #042a96 117.04%
+  );
+  background-clip: text; /* Hintergrund auf den Text clippen */
+  -webkit-background-clip: text; /* Für ältere Webkit-Browser */
+  color: transparent; /* Textfarbe auf transparent setzen, um den Hintergrund sichtbar zu machen */
+  font-weight: bold; /* Schriftgewicht auf fett setzen */
+  text-decoration: none; /* Keine Unterstreichung des Textes */
+  transition: background 0.3s; /* Übergangseffekt für den Hintergrund hinzufügen */
+}
+
+/* Stile für die Klasse .btn-link */
+.btn-link {
+  display: inline-block; /* Als Inline-Block-Element behandeln */
+  padding: 0.5rem 1rem; /* Innenabstand oben/unten 0.5rem, links/rechts 1rem */
+  border: none; /* Keine Randlinie anzeigen */
+  border-radius: 999px; /* Randradius für abgerundete Ecken */
+  cursor: pointer; /* Zeiger anzeigen, um zu zeigen, dass es anklickbar ist */
+  transition: background 0.3s, box-shadow 0.3s; /* Übergangseffekte hinzufügen */
+}
+
+/* Hovern über den Link */
+.btn-link:hover {
+  background: linear-gradient(
+    92.23deg,
+    #032a96 21.43%,
+    #032a96 50.63%,
+    #42a6e3 100%,
+    #42a6e3 117.04%
+  );
+  box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.8);
+}
+
+.motion-div-element {
+  display: flex;
+  flex: 1;
+  max-width: 482px;
+}
