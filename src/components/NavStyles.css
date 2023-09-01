@@ -68,3 +68,12 @@
 .iconHover:hover {
   font-size: 3rem;
 }
+
+.footer {
+  height: 3rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2);
+}

@@ -2,7 +2,8 @@ import React from "react";
 import "./NavStyles.css";
 // import icons
 import { BiHomeAlt } from "react-icons/bi";
-import { BsMusicNoteBeamed, BsChatSquareText } from "react-icons/bs";
+import { BsMusicNoteBeamed } from "react-icons/bs";
+import { PiShootingStarLight } from "react-icons/pi";
 //link
 import { Link } from "react-scroll";
 
@@ -40,8 +41,12 @@ const Nav = () => {
             spy={true}
             className="link"
           >
-            <BsChatSquareText className="iconHover" />
+            <PiShootingStarLight className="iconHover" />
           </Link>
+        </div>
+        <div className="footer">
+          <div>impresum</div>
+          <div>Designed by (c)luxelevare</div>
         </div>
       </div>
     </nav>
