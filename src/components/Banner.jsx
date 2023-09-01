@@ -26,7 +26,7 @@ const Banner = () => {
               className="motion-div"
             >
               <div>
-                <span className="text-white">I am a</span>
+                <span className="text-white">I am</span>
               </div>
               <TypeAnimation
                 sequence={[
