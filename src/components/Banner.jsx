@@ -18,15 +18,6 @@ const Banner = () => {
         <div className="container-flex">
           {/* text */}
           <div className="text">
-            <motion.h1
-              variants={fadeIn("up", 0.3)}
-              initial="hidden"
-              whileInView={"show"}
-              viewport={{ once: false, amount: 0.7 }}
-              className="motion-h1"
-            >
-              Zcalacee
-            </motion.h1>
             <motion.div
               variants={fadeIn("up", 0.4)}
               initial="hidden"
@@ -52,6 +43,15 @@ const Banner = () => {
                 repeat={Infinity}
               />
             </motion.div>
+            <motion.h1
+              variants={fadeIn("up", 0.3)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.7 }}
+              className="motion-h1"
+            >
+              Zcalacee
+            </motion.h1>
 
             <motion.div
               variants={fadeIn("up", 0.6)}

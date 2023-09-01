@@ -17,6 +17,8 @@
   display: flex; /* Flexibles Layout verwenden */
   flex-direction: column; /* Anordnung der Kinder in Spaltenrichtung */
   gap: 2px; /* Abstand zwischen den Kindern in vertikaler Richtung */
+  margin-top: -55px;
+  margin-bottom: 55px;
 }
 
 /* Stile für größere Bildschirme (lg) */

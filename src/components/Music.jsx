@@ -17,7 +17,7 @@ const Music = () => {
       <div className="container">
         <div className="container-kind">
           <div>
-            <h2 className="h2">Meine Songs</h2>
+            {/* <h2 className="h2">Meine Songs</h2> */}
             <p className="p">Alle meine Songs auf Spotify</p>
             <button className="btn btn-sm">Hier alle Songs</button>
           </div>
