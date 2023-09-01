@@ -17,9 +17,14 @@ const Header = () => {
             />
           </a>
           {/* button */}
-          <Link to="music" activeClass="active" smooth={true} spy={true}>
-            <button className="btn btn-sm">MY MUSIC</button>
-          </Link>
+          <div>
+            <Link to="news" activeClass="active" smooth={true} spy={true}>
+              <button className="btn btn-sm">News</button>
+            </Link>
+            <Link to="music" activeClass="active" smooth={true} spy={true}>
+              <button className="btn btn-sm">MY MUSIC</button>
+            </Link>
+          </div>
         </div>
       </div>
     </header>

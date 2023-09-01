@@ -34,7 +34,7 @@ const Nav = () => {
           </Link>
 
           <Link
-            to="contact"
+            to="news"
             activeClass="active"
             smooth={true}
             spy={true}

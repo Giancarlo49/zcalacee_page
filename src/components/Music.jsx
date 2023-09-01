@@ -6,6 +6,11 @@ import galerie from "../assets/galerie.jpg";
 import poladior from "../assets/poladior.jpg";
 import "./MusicStyles.css";
 
+//motion
+import { motion } from "framer-motion";
+//variants
+import { fadeIn } from "../variants";
+
 const Music = () => {
   return (
     <section className="section" id="music">
@@ -20,35 +25,60 @@ const Music = () => {
           <div className="cover">
             <div className="cover-kind">
               <div></div>
-              <img className="imageCover" src={belalim} alt="belalim cover" />
-              <div className="text-gradient">Zcalacee feat. Ziya</div>
-              <div>
-                <span className="text-gradient">Belalim 2023</span>
-                <button className="playButton">Play</button>
-              </div>
-              <div flex-1></div>
+              <motion.h1
+                variants={fadeIn("left", 0.2)}
+                initial="hidden"
+                whileInView={"show"}
+                viewport={{ once: false, amount: 0.7 }}
+              >
+                <img className="imageCover" src={belalim} alt="belalim cover" />
+                <div className="text-gradient">Zcalacee feat. Ziya</div>
+                <div>
+                  <span className="text-gradient">Belalim 2023</span>
+                  <button className="playButton">Play</button>
+                </div>
+                <div flex-1></div>
+              </motion.h1>
             </div>
 
             <div className="cover-kind">
               <div></div>
-              <img className="imageCover" src={galerie} alt="galerie cover" />
-              <div className="text-gradient">Zcalacee feat. Momo</div>
-              <div>
-                <span className="text-gradient">Galerie</span>
-                <button className="playButton">Play</button>
-              </div>
-              <div flex-1></div>
+              <motion.h1
+                variants={fadeIn("left", 0.2)}
+                initial="hidden"
+                whileInView={"show"}
+                viewport={{ once: false, amount: 0.7 }}
+              >
+                <img className="imageCover" src={galerie} alt="galerie cover" />
+                <div className="text-gradient">Zcalacee feat. Momo</div>
+                <div>
+                  <span className="text-gradient">Galerie</span>
+                  <button className="playButton">Play</button>
+                </div>
+                <div flex-1></div>
+              </motion.h1>
             </div>
 
             <div className="cover-kind">
               <div></div>
-              <img className="imageCover" src={poladior} alt="poladior cover" />
-              <div className="text-gradient">Zcalacee</div>
-              <div>
-                <span className="text-gradient">Poladior</span>
-                <button className="playButton">Play</button>
-              </div>
-              <div flex-1></div>
+              <motion.h1
+                variants={fadeIn("left", 0.2)}
+                initial="hidden"
+                whileInView={"show"}
+                viewport={{ once: false, amount: 0.7 }}
+              >
+                <img
+                  className="imageCover"
+                  src={poladior}
+                  alt="poladior cover"
+                />
+                <div className="text-gradient">Zcalacee</div>
+                <div>
+                  <span className="text-gradient">Poladior</span>
+                  <button className="playButton">Play</button>
+                </div>
+                <div flex-1></div>
+              </motion.h1>
             </div>
           </div>
         </div>

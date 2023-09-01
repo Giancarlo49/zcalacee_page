@@ -7,7 +7,7 @@ import Banner from "./components/Banner";
 import Header from "./components/Header";
 import Nav from "./components/Nav";
 import Music from "./components/Music";
-import Contact from "./components/Contact";
+import News from "./components/News";
 
 const App = () => {
   return (
@@ -17,7 +17,7 @@ const App = () => {
       <Banner />
       <Nav />
       <Music />
-      <Contact />
+      <News />
     </div>
   );
 };

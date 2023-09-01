@@ -60,7 +60,7 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="motion-div-children-2"
             >
-              <button className="btn">Contact me</button>
+              {/* <button className="btn">Contact me</button> */}
               <motion.div
                 variants={fadeIn("up", 0.5)}
                 initial="hidden"
