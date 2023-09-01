@@ -19,7 +19,14 @@ const Music = () => {
           <div>
             {/* <h2 className="h2">Meine Songs</h2> */}
             <p className="p">Alle meine Songs auf Spotify</p>
-            <button className="btn btn-sm">Hier alle Songs</button>
+            {/* <button className="btn btn-sm">Hier alle Songs</button> */}
+            <a
+              href="https://open.spotify.com/intl-de/artist/3KLA0Qw2MqBt9gwXEvVNTO"
+              target="_blank"
+              className="alleSongs btn btn-sm"
+            >
+              Hier alle Songs
+            </a>
           </div>
 
           <div className="cover">
