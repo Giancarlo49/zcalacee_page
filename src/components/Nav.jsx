@@ -45,8 +45,8 @@ const Nav = () => {
           </Link>
         </div>
         <div className="footer">
-          <div>impresum</div>
-          <div>Designed by (c)luxelevare</div>
+          <div className="impressum">impressum</div>
+          <div className="luxelevare">Designed by (c)luxelevare</div>
         </div>
       </div>
     </nav>
