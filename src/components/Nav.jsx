@@ -46,7 +46,7 @@ const Nav = () => {
         </div>
         <div className="footer">
           <div className="impressum">impressum</div>
-          <div className="luxelevare">Designed by (c)luxelevare</div>
+          <div className="luxelevare"><p>&copy; 2023 <a href="mailto:luxelevare@gmail.com">luxelevare</a></p></div>
         </div>
       </div>
     </nav>
