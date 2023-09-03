@@ -1,4 +1,4 @@
-import React from "react";
+
 import "./NavStyles.css";
 // import icons
 import { BiHomeAlt } from "react-icons/bi";
@@ -45,8 +45,9 @@ const Nav = () => {
           </Link>
         </div>
         <div className="footer">
-          <div className="impressum">impressum</div>
-          <div className="luxelevare"><p>&copy; 2023 <a href="mailto:luxelevare@gmail.com">luxelevare</a></p></div>
+        <div className="impressum"></div>
+         
+           <div className="luxelevare"><p>&copy; 2023 designed by <a className="lux-email"href="mailto:luxelevare@gmail.com">luxelevare</a>. Alle Rechte vorbehalten</p></div>
         </div>
       </div>
     </nav>

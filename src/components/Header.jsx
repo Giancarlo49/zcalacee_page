@@ -1,4 +1,4 @@
-import React from "react";
+
 import "./HeaderStyles.css";
 import Logo from "../assets/logo.svg";
 import { Link } from "react-scroll";
@@ -18,9 +18,9 @@ const Header = () => {
           </a>
           {/* button */}
           <div>
-            <Link to="news" activeClass="active" smooth={true} spy={true}>
+            {/* <Link to="news" activeClass="active" smooth={true} spy={true}>
               <button className="btn btn-sm">News</button>
-            </Link>
+            </Link> */}
             <Link to="music" activeClass="active" smooth={true} spy={true}>
               <button className="btn btn-sm">MY MUSIC</button>
             </Link>
