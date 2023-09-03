@@ -68,15 +68,15 @@ const Banner = () => {
                 className="motion-div-children"
               >
                 
-                <a href="#">
-                  <FaSpotify className="spotify" />
-                </a>
-                <a href="#">
-                  <FaYoutube className="youtube" />
-                </a>
-                <a href="#">
-                  <FaInstagram className="instagram" />
-                </a>
+                <a href="https://open.spotify.com/intl-de/artist/3KLA0Qw2MqBt9gwXEvVNTO" target="_blank">
+    <FaSpotify className="spotify" />
+  </a>
+  <a href="https://www.youtube.com/@Zcalacee" target="_blank">
+    <FaYoutube className="youtube" />
+  </a>
+  <a href="https://www.instagram.com/zcalacee/" target="_blank">
+    <FaInstagram className="instagram" />
+  </a>
               </motion.div>
             </motion.div>
             {/* socials */}

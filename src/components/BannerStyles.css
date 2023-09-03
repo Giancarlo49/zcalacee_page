@@ -49,6 +49,7 @@
   color: white;
   font-weight: bold; /* Schrift fett (bold) machen */
   line-height: 0.8; /* Zeilenhöhe auf 0.8 setzen */
+  margin-top: 5px;
 }
 
 /* Stile für größere Bildschirme (lg) */
