@@ -2,6 +2,7 @@
   min-height: 75vh; /* Mindesthöhe von 85% der Viewport-Höhe */
   display: flex; /* Flexibles Layout verwenden */
   align-items: center; /* Elemente vertikal zentrieren */
+  margin-bottom: 30px;
 }
 
 .container {
@@ -118,6 +119,8 @@ motion-div {
   margin-bottom: 12px; /* Unteren Abstand auf 12px setzen */
   margin-left: auto; /* Linken Rand auf "auto" setzen, um horizontal zu zentrieren */
   margin-right: auto; /* Rechten Rand auf "auto" setzen, um horizontal zu zentrieren */
+  margin-top: -30px;
+
 }
 
 /* Stile für größere Bildschirme (lg) */

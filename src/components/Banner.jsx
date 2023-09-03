@@ -1,4 +1,3 @@
-import React from "react";
 import "./BannerStyles.css";
 //images
 import Image from "../assets/avatar.png";
@@ -68,6 +67,7 @@ const Banner = () => {
                 viewport={{ once: false, amount: 0.7 }}
                 className="motion-div-children"
               >
+                
                 <a href="#">
                   <FaSpotify className="spotify" />
                 </a>
