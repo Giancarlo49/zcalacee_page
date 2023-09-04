@@ -126,9 +126,9 @@ const Music = () => {
               target="_blank"
               className="alleSongs btn btn-sm"
             >
-              Hier alle Songs
+              Hier zu Spotify
             </a>
-            <div>
+            <div className="carousel">
               <Carousel />
             </div>
             <div flex-1></div>
