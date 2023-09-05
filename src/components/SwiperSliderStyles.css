@@ -19,7 +19,32 @@ body {
 .swiper {
   width: 100%;
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 55px;
+}
+
+.mySwiper {
+  margin-top: 50px;
+  position: relative;
+}
+
+.mySwiper button {
+  display: block; /* Macht den Button sichtbar */
+  position: absolute; /* Setzt den Button auf absolute Position innerhalb des Containers */
+  bottom: 10px; /* Stellt die vertikale Position des Buttons ein */
+  left: 10px; /* Stellt die horizontale Position des Buttons ein */
+  background-color: rgb(4, 92, 180); /* Hintergrundfarbe des Buttons */
+  color: #000; /* Textfarbe des Buttons */
+  padding: 10px 20px; /* Innenabstand des Buttons */
+  border: 1px solid black; /* Entfernt den Rand des Buttons */
+  border-top-right-radius: 0; /* Oberer rechter Rand kein Radius */
+  border-bottom-right-radius: 0; /* Unterer rechter Rand kein Radius */
+  border-radius: 10px;
+  cursor: pointer; /* Zeigt den Mauszeiger als Zeiger an */
+  text-decoration: none; /* Entfernt die unterstrichene Textdekoration (optional) */
+}
+
+.mySwiper button:hover {
+  background: rgb(5, 203, 5);
 }
 
 .swiper-slide {

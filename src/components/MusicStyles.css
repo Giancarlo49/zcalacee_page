@@ -11,6 +11,7 @@
   flex-direction: column;
   gap: 3rem;
   margin-bottom: 2.5rem;
+  margin-top: -130px;
 }
 
 @media (min-width: 1024px) {
