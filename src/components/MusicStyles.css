@@ -11,7 +11,7 @@
   flex-direction: column;
   gap: 3rem;
   margin-bottom: 2.5rem;
-  margin-top: -130px;
+  margin-top: 0;
 }
 
 @media (min-width: 1024px) {
@@ -39,7 +39,7 @@
 
 .p {
   max-width: 20rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   font-weight: bold;
 }
 
