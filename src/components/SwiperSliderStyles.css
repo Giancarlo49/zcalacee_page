@@ -32,8 +32,14 @@ body {
   position: absolute; /* Setzt den Button auf absolute Position innerhalb des Containers */
   bottom: 10px; /* Stellt die vertikale Position des Buttons ein */
   left: 10px; /* Stellt die horizontale Position des Buttons ein */
-  background-color: rgb(4, 92, 180); /* Hintergrundfarbe des Buttons */
-  color: #000; /* Textfarbe des Buttons */
+  background: linear-gradient(
+    92.23deg,
+    #011b76 21.43%,
+    #011b76 50.63%,
+    #0bacf6 100%,
+    #0bacf6 117.04%
+  ); /*Hintergrundfarbe des Buttons */
+  color: #1cef09; /* Textfarbe des Buttons */
   padding: 10px 20px; /* Innenabstand des Buttons */
   border: 1px solid black; /* Entfernt den Rand des Buttons */
   border-top-right-radius: 0; /* Oberer rechter Rand kein Radius */
@@ -45,6 +51,7 @@ body {
 
 .mySwiper button:hover {
   background: rgb(5, 203, 5);
+  color: #011b76;
 }
 
 .swiper-slide {

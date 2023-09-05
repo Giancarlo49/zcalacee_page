@@ -48,6 +48,7 @@ export default function App() {
           <a
             href="https://open.spotify.com/intl-de/track/7D4iG5l7PNrFYnDiB1YXUM"
             target="_blank"
+            className="btn btn-sm"
           >
             <button>Play</button>
           </a>
