@@ -110,7 +110,7 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 
 //Karussell importieren
-import Carousel from "./Carousel.jsx";
+import SwiperSlider from "./SwiperSlider.jsx";
 
 const Music = () => {
   return (
@@ -129,7 +129,7 @@ const Music = () => {
               Hier alle Songs
             </a>
             <div>
-              <Carousel />
+              <SwiperSlider />
             </div>
             <div flex-1></div>
           </div>
